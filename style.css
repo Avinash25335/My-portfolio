@@ -349,6 +349,17 @@ header.scrolled {
     color: #d1d5db;
 }
 
+.project-links {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.project-links .glass-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+}
+
 /* Timeline */
 .timeline {
     position: relative;
