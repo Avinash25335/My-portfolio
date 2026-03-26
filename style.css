@@ -448,7 +448,15 @@ header.scrolled {
     background: var(--primary);
     color: #fff;
     transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+    border-color: var(--primary);
+}
+
+.cert-issuer {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
 }
 
 .edu-item {
